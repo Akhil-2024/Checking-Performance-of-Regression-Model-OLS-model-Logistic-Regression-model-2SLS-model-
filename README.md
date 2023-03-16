@@ -1,9 +1,9 @@
 # Checking-Performance-of-Regression-Model-OLS-model-Logistic-Regression-model-2SLS-model-
 We want to predict the species of an iris flower based on the measurements of its sepal length, sepal width, petal length, and petal width.
 
-##DataSet:- I have used the iris dataset, which contains measurements for 150 iris flowers (50 flowers from each of the 3 species). Each row of the dataset represents one iris flower and its corresponding measurements.
+**DataSet:-** I have used the iris dataset, which contains measurements for 150 iris flowers (50 flowers from each of the 3 species). Each row of the dataset represents one iris flower and its corresponding measurements.
 
-##How to use OLS(Ordinary Least Squares):-
+**How to use OLS(Ordinary Least Squares):-**
 Ordinary Least Squares is a statistical method used to estimate the parameters of a linear regression model. Here are the general steps to use the OLS model:
 
 Step-1-
@@ -26,7 +26,7 @@ Step-5-
 
 Make predictions: Once the model is validated, you can use it to make predictions by plugging in the values of the independent variables.
 
-##How to Use Logistic Regression:-
+**How to Use Logistic Regression:-**
 Regression is a statistical method that is commonly used to analyze the relationship between a binary dependent variable (i.e , a variable that can take only two values, such as 0 or 1) and one or more independent variables.
 
 Logistic regression is often used for predictive modeling and classification.
@@ -55,7 +55,7 @@ Step:6
 
 Evaluate the model: Evaluate the performance of the model on the testing data. This may involve calculating various metrics such as accuracy, precision, recall, and F1-score.
 
-##How to Use 2SLS(Two-Stage Least Squares):-
+**How to Use 2SLS(Two-Stage Least Squares):-**
 2SLS model is a statistical method used to estimate causal relationships between variables in the presence of endogeneity, which occurs when a predictor variable is correlated with the error term in a regression model.
 
 steps to follow when using the 2SLS model:
@@ -84,7 +84,7 @@ Step-6
 
 Interpret the results: Interpret the coefficients from the second stage regression to make causal inferences about the relationship between the dependent variable and the endogenous variable(s).
 
-##When To Use The Ordinary Least Squares (OLS) model 👎
+**When To Use The Ordinary Least Squares (OLS) model 👎**
 The Ordinary Least Squares (OLS) model is a statistical method used to estimate the relationship between a dependent variable and one or more independent variables. OLS is a popular method for linear regression analysis, and it assumes that the relationship between the dependent variable and independent variables is linear.
 
 OLS can be used in many situations where we want to model the relationship between a dependent variable and one or more independent variables, such as in economics, finance, social sciences, and engineering. OLS is particularly useful when we have a large dataset with many observations, as it is a relatively simple and efficient method.
@@ -94,14 +94,14 @@ OLS is generally appropriate when the following assumptions are met:
 Linearity: The relationship between the dependent variable and independent variables is linear. Independence: The errors are independent of each other. Homoscedasticity: The variance of the errors is constant across all values of the independent variables. Normality: The errors are normally distributed with a mean of zero. If these assumptions are not met, the OLS model may not provide accurate or reliable estimates of the parameters. In such cases, alternative regression models such as weighted least squares or robust regression may be more appropriate
 
 
-##When To Use The Logistic Regression
+**When To Use The Logistic Regression**
 Logistic regression can be used in various applications such as:
 
 Predicting the likelihood of a person buying a product or not, based on demographic data like age, income, etc. Identifying the likelihood of a patient having a particular disease based on their symptoms. Predicting the probability of default on a loan based on credit score, income, etc. Logistic regression can also be used in multi-class classification problems, where the dependent variable can take more than two values. In such cases, we can use multinomial logistic regression or softmax regression to model the probability of each class.
 
 Overall, logistic regression is a useful tool for predicting binary or multi-class outcomes in various fields, such as marketing, healthcare, finance, and many others.
 
-##When To Use Two-stage least squares (2SLS):-
+**When To Use Two-stage least squares (2SLS):-**
 
 Two-stage least squares (2SLS) model is a statistical technique used to estimate the parameters of a linear regression model when the independent variables are potentially endogenous, meaning that they are correlated with the error term of the model.
 
