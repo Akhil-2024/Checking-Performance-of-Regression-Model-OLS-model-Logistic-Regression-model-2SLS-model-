@@ -84,7 +84,7 @@ Step-6
 
 Interpret the results: Interpret the coefficients from the second stage regression to make causal inferences about the relationship between the dependent variable and the endogenous variable(s).
 
-**When To Use The Ordinary Least Squares (OLS) model 👎**
+**When To Use The Ordinary Least Squares (OLS) model:-**
 The Ordinary Least Squares (OLS) model is a statistical method used to estimate the relationship between a dependent variable and one or more independent variables. OLS is a popular method for linear regression analysis, and it assumes that the relationship between the dependent variable and independent variables is linear.
 
 OLS can be used in many situations where we want to model the relationship between a dependent variable and one or more independent variables, such as in economics, finance, social sciences, and engineering. OLS is particularly useful when we have a large dataset with many observations, as it is a relatively simple and efficient method.
